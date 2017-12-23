@@ -51,7 +51,7 @@ document.onkeydown = function (e) {
     if (e.keyCode == 39) { // Right
         player.left = player.left + 10;
     }
-    if (e.keyCode == 38) { // Up
+    if (e.keyCode == 38 && player.top != 450) { // Up
         player.top = player.top - 10;
     }
     if (e.keyCode == 40) { // Down
