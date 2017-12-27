@@ -3,7 +3,7 @@
     width: 900px;
     height: 700px;
 }
-
+  
 .player {
     position: absolute;
     background-image: url("img/player.png");
@@ -16,4 +16,11 @@
     background-image: url("img/enemy.png");
     width: 70px;
     height: 75px;
+}
+
+.missile {
+    position: absolute;
+    background-image: url("img/missle.png");
+    width: 15px;
+    height: 50px;
 }
